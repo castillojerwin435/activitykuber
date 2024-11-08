@@ -15,7 +15,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: k8s-activity-jerwin
+  name: k8s-kubernetes33-jerwin44
   labels:
     app: nginx
 spec:
@@ -46,4 +46,3 @@ spec:
       volumes:
         - name: html-volume
           emptyDir: {}
-
